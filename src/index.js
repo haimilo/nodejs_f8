@@ -4,6 +4,7 @@ const app = express();
 const {engine} = require('express-handlebars');
 const port = 3001;
 const path = require('path');
+const hbs = require('hbs')
 
 // HTTP loggers
 app.use(morgan('combined'));
